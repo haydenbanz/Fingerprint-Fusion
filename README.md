@@ -135,7 +135,79 @@ You can customize the code further by modifying the following functions in the `
 Happy fingerprint matching!
 
 
+## WINDOWS INSTALLTION
+Here are the installation steps:
+To get started with Fingerprint Glitch, follow these steps:
 
+    Clone this repository:
+
+    `git clone https://github.com/haydenbanz/Fingerprint-Fusion`
+
+2.`cd Fingerprint-Fusion`
+
+    Place your target fingerprint image (e.g., img0026.jpg) in the main.py file.
+
+    Organize your template fingerprint images in a folder (e.g., fingerprint/) within the project directory.
+
+    Run the code: `python FingerprintFusion.py`
+    The code will iterate through the template fingerprint images in the specified folder, compare each template with the target image, and print the match score for each template.
+
+## For Mac installation, you can follow these general steps. Please note that these are standard instructions and may need adjustment based on your specific system and setup.
+
+## Flask Installation on Mac
+
+1. **Install Xcode Command Line Tools:**
+   Open a terminal and run the following command to install Xcode Command Line Tools:
+   ```bash
+   xcode-select --install
+   ```
+
+2. **Install Homebrew (if not installed):**
+   If you don't have Homebrew installed, you can install it using the following command:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
+3. **Install Python:**
+   Use Homebrew to install Python:
+   ```bash
+   brew install python@3.9
+   ```
+
+4. **Upgrade pip:**
+   Upgrade `pip` to the latest version:
+   ```bash
+   pip3 install --upgrade pip
+   ```
+
+5. **Install Flask:**
+   Install Flask using `pip`:
+   ```bash
+   pip3 install flask
+   ```
+
+6. **Clone the Repository:**
+   Clone your Flask project repository:
+   ```bash
+   git clone https://github.com/haydenbanz/Fingerprint-Fusion
+   cd Fingerprint-Fusion
+   ```
+
+7. **Install Dependencies:**
+   Install the required Python packages for your project:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+8. **Run the Flask App:**
+   Run your Flask application:
+   ```bash
+   python3 app.py
+   ```
+
+   This will start the development server. Open your web browser and go to `http://127.0.0.1:5000/` to see your Flask app.
+
+These are general instructions. Depending on your project structure, you might need to adjust some steps. If you have specific requirements or encounter issues, feel free to ask for further assistance!
 
 
 ### Contributing
