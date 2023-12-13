@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fingerprint Scanner</title>
+    <link rel="stylesheet" href="https://code-glitchers.github.io/stylex.css">
+    <link rel="stylesheet" href="https://code-glitchers.github.io/style.css">
+    <link rel="manifest" href="/favicons/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://code-glitchers.github.io/stylex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+</head>
+<body>
+   <main>
+
+        <aside class="sidebar" data-sidebar>
+    
+          <div class="sidebar-info">
+      <figure class="avatar-box">
+          
+        <img width="120" height="150" src="https://img.icons8.com/color/100/fingerprint-scan.png" alt="fingerprint-scan"/>
+      </figure>
+    
+            <div class="info-content">
+              <h1 class="name" title="Scanner">Scanner</h1>
+    
+              <p ><a href="https://github.com/haydenbanz/" style="text-decoration: none;">Devloped by haydenbanz</a></p>
+              <br>
+               
+              
+              <pre>
+              </pre>
+            </div>
+           
+             
+    
+            <button class="info_more-btn" data-sidebar-btn>
+              <span>Show Contacts</span>
+    
+              <ion-icon name="chevron-down"></ion-icon>
+            </button>
+    
+          </div>
+    
+          <div class="sidebar-info_more">
+    
+            <div class="separator"></div>
+    
+            <ul class="contacts-list">
+    
+              <li class="contact-item">
+    
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+    
+                  <a href="mailto:t5hlt8zcp@mozmail.com" class="contact-link">t5hlt8zcp@mozmail.com</a>
+                </div>
+    
+              </li>
+    
+              <li class="contact-item">
+    
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title">Website</p>
+    
+                  <a href="https://haydenbanz.github.io/" class="contact-link">https://haydenbanz.github.io/</a>
+                </div>
+    
+              </li>
+    
+              <li class="contact-item">
+    
+            
+          </li>
+    
+              <li class="contact-item">
+    
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title">Location</p>
+    
+                  <address>Neon Alley 77, Kowloon Walled City, Hong Kong</address>
+                </div>
+    
+              </li>
+    
+            </ul>
+    
+            <div class="separator"></div>
+    
+            <ul class="social-list">
+    
+              <li class="social-item">
+                <a href="https://github.com/haydenzbanz/" class="social-link">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+    
+              <li class="social-item">
+                <a href="https://twitter.com/0x_hayd3n" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li class="social-item">
+                <a href="https://www.instagram.com/0x_hayden" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+          </div>
+    
+        </aside>
+    
+    
+    
+    
+    
+        <!--
+          - #main-content
+        -->
+    
+        <div class="main-content">
+    
+          <!--
+            - #NAVBAR
+          -->
+    
+          <nav class="navbar">
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <button class="navbar-link active" data-nav-link>About</button>
+              </li>
+    
+              <li class="navbar-item">
+                <button onclick="window.location.href='blog.html'" class="navbar-link" data-nav-link>Blog</button>
+              </li>
+    
+              <li class="navbar-item">
+                <button class="navbar-link" onclick="window.location.href='portfolio.html'" data-nav-link>Portfolio</button>
+              </li>
+    
+              <li class="navbar-item">
+                <button  onclick="window.location.href='#'" class="navbar-link" data-nav-link>Courses</button>
+              </li>
+    <li class="navbar-item">
+      <button class="navbar-link" onclick="window.location.href='contact.html'">Contact</button>
+    </li>
+    
+            </ul>
+    
+          </nav>
+    
+    
+    
+    
+    
+          <!--
+            - #ABOUT
+          -->
+    
+          <article class="about  active" data-page="about">
+    
+         
+    
+            <section class="about-text">
+                <br <br>
+
+                <br>
+                <br>
+                <br>
+
+                <h2 class="h2 article-title">Fingerprint Scanner</h2> 
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="file">Upload Fingerprint Image:</label>
+        <input type="file" name="file" accept=".jpg, .jpeg, .png" required>
+        <br>
+        <input type="submit" value="Match Fingerprint" style="width: 150px;">
+
+    </form>
+</div>
+
+</main>
+
+</body>
+</html>
